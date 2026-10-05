@@ -238,118 +238,14 @@
             .hero h1 { font-size: 2.5rem; }
             .nav-links { display: none; /* Hide standard nav on mobile for simplicity */ }
         }
-    </style>
-</head>
-<body>
 
-    <div class="container">
-        <!-- --- HTML STRUCTURE --- -->
-        
-        <nav class="reveal">
-            <h3>Onorio Deleroy</h3>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </nav>
-
-        <section class="hero reveal">
-            <!-- Corrected Image Path -->
-            <img src="portrait.png" alt="Portrait of Onoriode Leroy">
-            
-            <h1>Hi, I'm Leroy</h1>
-            <p>A Web Developer dedicated to building responsive, user-friendly, and professional web experiences.</p>
-            
-            <div>
-                <a href="#projects" class="btn">View My Work</a>
-                <a href="https://github.com/onoriodeleroy" target="_blank" class="btn btn-outline">GitHub Profile</a>
-            </div>
-        </section>
-
-        <section id="about" class="reveal">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <p>I am a passionate web developer focused on creating clean, efficient, and accessible websites. I specialize in HTML, CSS, and JavaScript, bringing modern designs to life through code. When I'm not coding, I'm constantly learning new technologies to improve my craft.</p>
-            </div>
-        </section>
-
-        <section id="projects" class="reveal">
-            <h2 class="section-title">My Projects</h2>
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <h3>Portfolio Website</h3>
-                    <p>A fully responsive personal portfolio website built with HTML, CSS, and JavaScript, featuring smooth scroll animations and a functional contact form.</p>
-                </div>
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <h3>Coming Soon</h3>
-                    <p>Currently working on new web applications to showcase interactive front-end development skills.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="reveal">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-wrapper">
-                <!-- Corrected Formspree Endpoint -->
-                <form action="https://formspree.io/f/xoevyvvd" method="POST">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required placeholder="Your Name">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required placeholder="How can I help you?"></textarea>
-                    </div>
-                    
-                    <button type="submit" class="btn" style="width: 100%;">Send Message</button>
-                </form>
-            </div>
-        </section>
-
-        <footer class="reveal">
-            <p>&copy; 2026 Onorio Deleroy. All rights reserved.</p>
-        </footer>
-    </div>
-
-    <!-- --- JAVASCRIPT --- -->
-    <script>
-        // Scroll-reveal animation logic
-        function reveal() {
-            var reveals = document.querySelectorAll('.reveal');
-            
-            for (var i = 0; i < reveals.length; i++) {
-                var windowHeight = window.innerHeight;
-                var elementTop = reveals[i].getBoundingClientRect().top;
-                var elementVisible = 100; // Triggers when 100px of element is visible
-                
-                if (elementTop < windowHeight - elementVisible) {
-                    reveals[i].classList.add('active');
-                }
-            }
-        }
-
-        // Listen for scroll events
-        window.addEventListener('scroll', reveal);
-        
-        // Trigger once on page load to reveal elements already in view
-        reveal();
-    </script>
 </body>
 </html><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Onorio Deleroy | Web Developer</title>
+    <title>Onoriode leroy | Web Developer</title>
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="portrait.png">
